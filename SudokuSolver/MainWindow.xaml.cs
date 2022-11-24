@@ -23,6 +23,10 @@ namespace SudokuSolver
         public MainWindow()
         {
             InitializeComponent();
+
+            Sudoku sudoku = new Sudoku();
+
+            DataContext = sudoku;
         }
     }
 }
