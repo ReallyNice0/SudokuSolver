@@ -11,123 +11,150 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        
+        <!-- Row 0 -->
 
-        <Grid Grid.Row="0" Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+        <TextBox Text="{Binding Path=Content[0], Mode=TwoWay}" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[1], Mode=TwoWay}" Grid.Row="0" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[2], Mode=TwoWay}" Grid.Row="0" Grid.Column="2"/>
 
-            <!-- <TextBox Text="{Binding Path=Sudoku.Board[0\,0]}"/> -->
+        <TextBox Text="{Binding Path=Content[3], Mode=TwoWay}" Grid.Row="0" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[4], Mode=TwoWay}" Grid.Row="0" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[5], Mode=TwoWay}" Grid.Row="0" Grid.Column="5"/>
 
-        </Grid>
-        <Grid Grid.Row="0" Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <Grid Grid.Row="0" Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <Grid Grid.Row="1" Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <Grid Grid.Row="1" Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <Grid Grid.Row="1" Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <Grid Grid.Row="2" Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <Grid Grid.Row="2" Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <Grid Grid.Row="2" Grid.Column="2">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
+        <TextBox Text="{Binding Path=Content[6], Mode=TwoWay}" Grid.Row="0" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[7], Mode=TwoWay}" Grid.Row="0" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[8], Mode=TwoWay}" Grid.Row="0" Grid.Column="8"/>
+
+        <!-- Row 1 -->
+
+        <TextBox Text="{Binding Path=Content[9], Mode=TwoWay}" Grid.Row="1" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[10], Mode=TwoWay}" Grid.Row="1" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[11], Mode=TwoWay}" Grid.Row="1" Grid.Column="2"/>
+
+        <TextBox Text="{Binding Path=Content[12], Mode=TwoWay}" Grid.Row="1" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[13], Mode=TwoWay}" Grid.Row="1" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[14], Mode=TwoWay}" Grid.Row="1" Grid.Column="5"/>
+
+        <TextBox Text="{Binding Path=Content[15], Mode=TwoWay}" Grid.Row="1" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[16], Mode=TwoWay}" Grid.Row="1" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[17], Mode=TwoWay}" Grid.Row="1" Grid.Column="8"/>
+
+        <!-- Row 2 -->
+
+        <TextBox Text="{Binding Path=Content[18], Mode=TwoWay}" Grid.Row="2" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[19], Mode=TwoWay}" Grid.Row="2" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[20], Mode=TwoWay}" Grid.Row="2" Grid.Column="2"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[21], Mode=TwoWay}" Grid.Row="2" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[22], Mode=TwoWay}" Grid.Row="2" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[23], Mode=TwoWay}" Grid.Row="2" Grid.Column="5"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[24], Mode=TwoWay}" Grid.Row="2" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[25], Mode=TwoWay}" Grid.Row="2" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[26], Mode=TwoWay}" Grid.Row="2" Grid.Column="8"/>
+
+        <!-- Row 3 -->
+
+        <TextBox Text="{Binding Path=Content[27], Mode=TwoWay}" Grid.Row="3" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[28], Mode=TwoWay}" Grid.Row="3" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[29], Mode=TwoWay}" Grid.Row="3" Grid.Column="2"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[30], Mode=TwoWay}" Grid.Row="3" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[31], Mode=TwoWay}" Grid.Row="3" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[32], Mode=TwoWay}" Grid.Row="3" Grid.Column="5"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[33], Mode=TwoWay}" Grid.Row="3" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[34], Mode=TwoWay}" Grid.Row="3" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[35], Mode=TwoWay}" Grid.Row="3" Grid.Column="8"/>
+
+        <!-- Row 4 -->
+
+        <TextBox Text="{Binding Path=Content[36], Mode=TwoWay}" Grid.Row="4" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[37], Mode=TwoWay}" Grid.Row="4" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[38], Mode=TwoWay}" Grid.Row="4" Grid.Column="2"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[39], Mode=TwoWay}" Grid.Row="4" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[40], Mode=TwoWay}" Grid.Row="4" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[41], Mode=TwoWay}" Grid.Row="4" Grid.Column="5"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[42], Mode=TwoWay}" Grid.Row="4" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[43], Mode=TwoWay}" Grid.Row="4" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[44], Mode=TwoWay}" Grid.Row="4" Grid.Column="8"/>
+
+        <!-- Row 5 -->
+
+        <TextBox Text="{Binding Path=Content[45], Mode=TwoWay}" Grid.Row="5" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[46], Mode=TwoWay}" Grid.Row="5" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[47], Mode=TwoWay}" Grid.Row="5" Grid.Column="2"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[48], Mode=TwoWay}" Grid.Row="5" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[49], Mode=TwoWay}" Grid.Row="5" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[50], Mode=TwoWay}" Grid.Row="5" Grid.Column="5"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[51], Mode=TwoWay}" Grid.Row="5" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[52], Mode=TwoWay}" Grid.Row="5" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[53], Mode=TwoWay}" Grid.Row="5" Grid.Column="8"/>
+
+        <!-- Row 6 -->
+
+        <TextBox Text="{Binding Path=Content[54], Mode=TwoWay}" Grid.Row="6" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[55], Mode=TwoWay}" Grid.Row="6" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[56], Mode=TwoWay}" Grid.Row="6" Grid.Column="2"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[57], Mode=TwoWay}" Grid.Row="6" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[58], Mode=TwoWay}" Grid.Row="6" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[59], Mode=TwoWay}" Grid.Row="6" Grid.Column="5"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[60], Mode=TwoWay}" Grid.Row="6" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[61], Mode=TwoWay}" Grid.Row="6" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[62], Mode=TwoWay}" Grid.Row="6" Grid.Column="8"/>
+
+        <!-- Row 7 -->
+
+        <TextBox Text="{Binding Path=Content[63], Mode=TwoWay}" Grid.Row="7" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[64], Mode=TwoWay}" Grid.Row="7" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[65], Mode=TwoWay}" Grid.Row="7" Grid.Column="2"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[66], Mode=TwoWay}" Grid.Row="7" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[67], Mode=TwoWay}" Grid.Row="7" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[68], Mode=TwoWay}" Grid.Row="7" Grid.Column="5"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[69], Mode=TwoWay}" Grid.Row="7" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[70], Mode=TwoWay}" Grid.Row="7" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[71], Mode=TwoWay}" Grid.Row="7" Grid.Column="8"/>
+
+        <!-- Row 8 -->
+
+        <TextBox Text="{Binding Path=Content[72], Mode=TwoWay}" Grid.Row="8" Grid.Column="0"/>
+        <TextBox Text="{Binding Path=Content[73], Mode=TwoWay}" Grid.Row="8" Grid.Column="1"/>
+        <TextBox Text="{Binding Path=Content[74], Mode=TwoWay}" Grid.Row="8" Grid.Column="2"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[75], Mode=TwoWay}" Grid.Row="8" Grid.Column="3"/>
+        <TextBox Text="{Binding Path=Content[76], Mode=TwoWay}" Grid.Row="8" Grid.Column="4"/>
+        <TextBox Text="{Binding Path=Content[77], Mode=TwoWay}" Grid.Row="8" Grid.Column="5"/>
+                                                                          
+        <TextBox Text="{Binding Path=Content[78], Mode=TwoWay}" Grid.Row="8" Grid.Column="6"/>
+        <TextBox Text="{Binding Path=Content[79], Mode=TwoWay}" Grid.Row="8" Grid.Column="7"/>
+        <TextBox Text="{Binding Path=Content[80], Mode=TwoWay}" Grid.Row="8" Grid.Column="8"/>
+
     </Grid>
 </Window>

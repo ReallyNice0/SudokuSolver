@@ -3,16 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace SudokuSolver
 {
-    internal class Sudoku
+    public class SudokuBoard
     {
-        public int[,] Board { get; set; }
+        public int[] content;
 
-        public Sudoku()
+        public SudokuBoard()
         {
-            Board = new int[9, 9];
+            content = new int[81];
+        }
+
+        public int[] Content
+        {
+            get { return content; }
+            set { content = value; }
         }
     }
 }

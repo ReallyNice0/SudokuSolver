@@ -20,13 +20,14 @@ namespace SudokuSolver
     /// </summary>
     public partial class MainWindow : Window
     {
+        public SudokuBoard Board { get; set; }
         public MainWindow()
         {
             InitializeComponent();
 
-            Sudoku sudoku = new Sudoku();
+            Board = new SudokuBoard();
 
-            DataContext = sudoku;
+            this.DataContext = Board;
         }
     }
 }
