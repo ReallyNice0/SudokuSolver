@@ -27,9 +27,9 @@ namespace SudokuSolver
 
             Board = new SudokuBoard();
 
-            Board.Content[1] = "1";
-            Board.Content[12] = "9";
-            Board.Content[70] = "4";
+            //Board.Content[1] = "1";
+            //Board.Content[12] = "9";
+            //Board.Content[70] = "4";
 
             this.DataContext = Board;
         }

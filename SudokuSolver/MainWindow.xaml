@@ -24,13 +24,13 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
 
-                <RowDefinition Height="5" />
+                <RowDefinition Height="10" />
 
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
 
-                <RowDefinition Height="5" />
+                <RowDefinition Height="10" />
 
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
@@ -41,13 +41,13 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
 
-                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="10"/>
 
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
 
-                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="10"/>
 
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
