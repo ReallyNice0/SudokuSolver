@@ -9,17 +9,40 @@ namespace SudokuSolver
 {
     public class SudokuBoard
     {
-        public int[] content;
+        private string[] content;
 
         public SudokuBoard()
         {
-            content = new int[81];
+            content = new string[81];
         }
 
-        public int[] Content
+        public string[] Content
         {
-            get { return content; }
-            set { content = value; }
+            get
+            {
+                int arrayCounter = 0;
+                foreach (string element in content)
+                {
+                    if (int.TryParse(element, out int parseOutput))
+                    {
+                        if (parseOutput > 0 && parseOutput < 10)
+                        {
+                            content[arrayCounter] = parseOutput.ToString();
+                        }
+                        else
+                        {
+                            content[arrayCounter] = "";
+                        }
+                    }
+                    else
+                    {
+                        content[arrayCounter] = "";
+                    }
+                    arrayCounter++;
+                }
+                GC.Collect();
+                return content;
+            }
         }
     }
 }
